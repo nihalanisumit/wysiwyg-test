@@ -339,9 +339,9 @@ body {
     background-color: rgba(150, 150, 150, 0.4);
   }
   
-  /* .emoji.happysmile {
+  .emoji.happysmile {
     background-image: url(/images/emoji/1F642.png);
-  } */
+  }
   
   .toolbar {
     display: flex;
