@@ -6,6 +6,8 @@
 // ;``
 // import { Button, Icon, Toolbar } from '../slate'
 
+import { Box } from '@chakra-ui/react'
+
 // const HOTKEYS = {
 //   'mod+b': 'bold',
 //   'mod+i': 'italic',
@@ -254,3 +256,9 @@
 // ]
 
 // export default RichTextExample
+
+function Slate() {
+  return <Box> Slate</Box>
+}
+
+export default Slate

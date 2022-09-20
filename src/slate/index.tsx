@@ -22,19 +22,21 @@ export const Button = React.forwardRef(
       } & BaseProps
     >,
     ref: Ref<OrNull<HTMLSpanElement>>,
-  ) => (
-    <span
-      {...props}
-      ref={ref}
-      className={cx(
-        className,
-        css`
-          cursor: pointer;
-          color: ${reversed ? (active ? 'white' : '#aaa') : active ? 'black' : '#ccc'};
-        `,
-      )}
-    />
-  ),
+  ) => {
+    return (
+      <span
+        {...props}
+        ref={ref}
+        className={cx(
+          className,
+          css`
+            cursor: pointer;
+            color: ${reversed ? (active ? 'white' : '#aaa') : active ? 'black' : '#ccc'};
+          `,
+        )}
+      />
+    )
+  },
 )
 
 export const EditorValue = React.forwardRef(
