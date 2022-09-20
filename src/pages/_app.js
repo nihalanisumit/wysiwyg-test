@@ -1,4 +1,5 @@
-import Providers from 'providers'
+import Providers from '../providers'
+import '../lexical.css'
 
 function MyApp({ Component, pageProps }) {
   return (
